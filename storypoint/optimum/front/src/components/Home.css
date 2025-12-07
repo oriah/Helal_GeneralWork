@@ -1,0 +1,14 @@
+.home_container {
+  width: 100%;
+  height: 1009px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home_hero {
+  width: 98%;
+  height: 1009px;
+}
+.right-menu {
+  width: 112px;
+}

@@ -1,0 +1,207 @@
+.SideCardView {
+  height: 1020px;
+  width: 600px;
+  left: -8px;
+  top: -1px;
+  padding: 20px;
+  border-radius: 0% 100px 100px 0%;
+  z-index: 10;
+  background-color: white;
+  box-shadow: 1px 1px 10px #1082e06b;
+  position: fixed;
+}
+.main-dashboard {
+  position: relative;
+}
+.side-viewcard-image {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-size: cover;
+}
+.top-side-viewcard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 3%;
+  text-align: center;
+  align-items: center;
+}
+.side-view-top-title {
+  font-weight: bold !important;
+  color: #1c1678;
+}
+
+.side-viewcard-titles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.title-name {
+  color: #7976a2;
+  cursor: pointer;
+  border-bottom: solid 3px #e7f5ff;
+}
+
+.title-name-picked {
+  color: #1082e0;
+  border-bottom: 4px solid #1082e0;
+  cursor: pointer;
+}
+.side-viewcard-content-main {
+  margin: 20px;
+}
+.side-viewcard-content {
+  display: flex;
+  text-align: center;
+  gap: 8px;
+  font-weight: bold;
+  background-color: #e7f5ff;
+  width: 170px;
+  border-radius: 30px;
+  height: 30px;
+  flex-direction: start;
+  /* align-content: flex-start; */
+  align-items: center;
+  justify-content: center;
+}
+.side-viewcard-content-parent {
+  display: flex;
+  justify-items: end;
+  flex-direction: row;
+}
+.side-viewcard-contact {
+  margin-top: 30px;
+}
+.contact-top {
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.contact-top > img {
+  width: 25px;
+  height: 25px;
+}
+.contact-top > text {
+  font-weight: bold;
+  color: #1c1678;
+  font-size: 20px;
+}
+.card-btns-dash {
+  margin-top: -30px;
+  display: flex;
+}
+.btn {
+  border: 1px solid #1082e0;
+  width: 160px;
+  height: 30px;
+  border-radius: 14px;
+  background-color: white;
+  color: #1c1678;
+  cursor: pointer;
+}
+.card-btns-dash > .btn1 {
+  width: 100px;
+  height: 20px;
+}
+.card-btns-dash > .btn2 {
+  width: 130px;
+  height: 20px;
+}
+.contact-top > button:hover {
+  background-color: #1c1678;
+  color: white;
+}
+.contact-body {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.contact-body-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-items: center;
+  background-color: #e7f5ff;
+  border-radius: 30px;
+  width: 400px;
+  height: 35px;
+}
+.info-content {
+  /* margin-top: 60px; */
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.info-content-inner {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #1c1678;
+}
+.bank-info {
+  margin-top: 10px;
+}
+.bank-info2 {
+  margin-top: 2cqb;
+  display: flex;
+  gap: 20px;
+}
+.bank-info2 > img {
+  width: 30px;
+  height: 30px;
+}
+.bank-info > text {
+  margin-top: 10px;
+  color: #1c1678;
+  font-size: 15px;
+  line-height: 25px;
+}
+.getDocumentbtn {
+  margin: 35px;
+}
+
+.m-bold-text {
+  font-size: 15px;
+  font-weight: bold;
+  color: #1c1678;
+}
+.right-side,
+.left-side {
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
+  color: #1c1678;
+}
+.right-side {
+  max-width: 100px;
+}
+.left-side-cont {
+  line-height: 15px;
+}
+.card-content-inner-section {
+  display: flex;
+  gap: 15px;
+}
+.s-bold-text {
+  color: #1c1678;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .top-body {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .top-left-body {
+    margin-left: 22%;
+  }
+}

@@ -1,0 +1,52 @@
+.logo-img {
+  width: 60px;
+  margin: 8px;
+}
+.nav-container {
+  background: linear-gradient(to right, rgb(146, 205, 233), rgb(228, 65, 65));
+
+  height: 60px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px;
+}
+
+.nav-btns {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-right: 80px;
+}
+
+.nav-btns > div {
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.nav-btns > div:hover {
+  color: rgba(255, 255, 255, 0.74);
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: inherit;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.nav-item:hover {
+  background: #e6f3f7;
+  cursor: pointer;
+}
+.top-logo-name {
+  display: flex;
+  align-items: center;
+}
+.logo-name {
+  color: rgb(124, 10, 10);
+}

@@ -1,0 +1,29 @@
+body {
+  margin: 0px;
+  font-family: "Rubik", sans-serif;
+  direction: rtl;
+}
+.container {
+  display: flex;
+  height: 910px;
+}
+
+.mainBody {
+  width: 1700px;
+  /* background-color: red; */
+}
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidenav {
+  width: 240px;
+  padding: 1rem;
+  border-right: 1px solid #ddd;
+}
+
+.page-content {
+  flex: 1;
+  padding: 1.5rem;
+}

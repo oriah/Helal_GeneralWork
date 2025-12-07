@@ -1,0 +1,98 @@
+/* SideNav  */
+.sideNav {
+  background-color: #f6f4ff;
+  width: 250px;
+  position: relative;
+}
+.title_sideNavCont {
+  margin: 10px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  line-height: 2px;
+}
+
+.userImg_SideNav {
+  height: 44px;
+  width: 44px;
+}
+.name_sideNav {
+  font-weight: 800;
+  color: #1e0c42;
+  font-size: 15px;
+}
+.role_sideNav {
+  font-size: 8px;
+  color: #707070;
+}
+.navItems_cont {
+  margin-top: 25px;
+}
+.item {
+  display: flex;
+  background-color: #8371fb;
+  width: 170px;
+  height: 34px;
+  align-items: center;
+  gap: 13px;
+  color: white;
+  font-size: 12px;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.NotEffectedItem {
+  display: flex;
+  width: 170px;
+  height: 34px;
+  align-items: center;
+  color: #1e0c42;
+  gap: 13px;
+  font-size: 13px;
+  border-radius: 30px;
+  margin-top: 15px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.itemIcon {
+  margin-right: 20px;
+}
+
+.bottom_SideNav {
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+}
+.whiteCircle {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  z-index: -1px;
+}
+
+.bottomLogo {
+  position: absolute;
+  right: 28px;
+  bottom: 25px;
+}
+.logOutCont {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  bottom: 33px;
+  right: 60px;
+  position: absolute;
+}
+.logOut {
+  font-size: 13px;
+}
+.bottomLine_SideNav {
+  width: 200px;
+  position: absolute;
+  bottom: 70px;
+  color: red;
+}
+
+/* End SideNav */

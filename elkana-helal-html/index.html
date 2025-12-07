@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <main dir="rtl">
+      <div class="container">
+        <!-- Side Nav  -->
+        <div class="sideNav">
+          <div class="title_sideNavCont">
+            <img class="userImg_SideNav" src="./assets/images/Ellipse 1.png" />
+            <div class="name_sideNavCont">
+              <h3 class="name_sideNav">אלקנה כהן</h3>
+              <div class="role_sideNav">מנהל מערכת</div>
+            </div>
+          </div>
+          <div class="navItems_cont">
+            <div class="item">
+              <img
+                width="15"
+                height="15"
+                class="itemIcon"
+                src="./assets/images/Dashboard.png"
+              />
+              <div class="itemName">לוח בקרה</div>
+            </div>
+            <div class="NotEffectedItem">
+              <img
+                width="15"
+                height="15"
+                class="itemIcon"
+                src="./assets/images/Leads.png"
+              />
+              <div class="itemName">לידים</div>
+            </div>
+            <div class="NotEffectedItem">
+              <img
+                width="15"
+                height="15"
+                class="itemIcon"
+                src="./assets/images/Clients.png"
+              />
+              <div class="itemName">לקוחות</div>
+            </div>
+            <div class="NotEffectedItem">
+              <img
+                width="15"
+                height="15"
+                class="itemIcon"
+                src="./assets/images/Proposal.png"
+              />
+              <div class="itemName">הצעות מחיר</div>
+            </div>
+            <div class="NotEffectedItem">
+              <img
+                width="15"
+                height="15"
+                class="itemIcon"
+                src="./assets/images/Icon.png"
+              />
+              <div class="itemName">אדריכלים</div>
+            </div>
+            <div class="NotEffectedItem">
+              <img
+                width="15"
+                height="15"
+                class="itemIcon"
+                src="./assets/images/Icon-1.png"
+              />
+              <div class="itemName">בחירת חומרים</div>
+            </div>
+            <div class="NotEffectedItem">
+              <img
+                width="15"
+                height="15"
+                class="itemIcon"
+                src="./assets/images/Icon-2.png"
+              />
+              <div class="itemName">מפעל</div>
+            </div>
+            <div class="NotEffectedItem">
+              <img
+                width="15"
+                height="15"
+                class="itemIcon"
+                src="./assets/images/Icon-3.png"
+              />
+              <div class="itemName">משלוחים</div>
+            </div>
+            <div class="NotEffectedItem">
+              <img
+                width="15"
+                height="15"
+                class="itemIcon"
+                src="./assets/images/Icon-4.png"
+              />
+              <div class="itemName">שירות לקוחות</div>
+            </div>
+            <div class="NotEffectedItem">
+              <img
+                width="15"
+                height="15"
+                class="itemIcon"
+                src="./assets/images/Icon-5.png"
+              />
+              <div class="itemName">ד"וחות</div>
+            </div>
+            <div class="NotEffectedItem">
+              <img
+                width="15"
+                height="15"
+                class="itemIcon"
+                src="./assets/images/Icon-6.png"
+              />
+              <div class="itemName">הגדרות</div>
+            </div>
+          </div>
+
+          <hr class="bottomLine_SideNav" />
+          <div class="bottom_SideNav">
+            <div class="bottomLogoCont">
+              <img
+                class="whiteCircle"
+                width="35"
+                height="35"
+                src="./assets/images/Ellipse 3.png"
+              />
+              <img
+                class="bottomLogo"
+                width="20"
+                height="25"
+                src="./assets/images/Group 5.png"
+              />
+            </div>
+            <div class="logOutCont">
+              <img width="10" height="10" src="./assets/images/exit.png" />
+              <div class="logOut">התנתק</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Main -->
+        <div class="mainBody">
+          <!-- dashboard -->
+          <!-- <div class="dashboard">
+            <div class="topDashboard">
+              <div class="TitleDashboard_Cont">
+                <h1 class="TitleDashboard">לוח בקרה</h1>
+                <span class="smTitleDashboard"
+                  >ברוכים השבים! הנה מה קורה עם הפרויקטים שלך היום</span
+                >
+              </div>
+              <div class="notificationDashboard_Cont">
+                <div class="notificationDashboad">
+                  <img
+                    class="notifImg"
+                    width="20"
+                    height="20"
+                    src="./assets/images/bell-notification-social-media (3).png"
+                  />
+                  <div class="square"><span>3</span></div>
+                  <div class="notifName">התראות</div>
+                  <img
+                    class="arrow"
+                    width="14px"
+                    src="./assets/images/caret-up-white.png"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="heroCont">
+              <div class="cardsCont">
+                <div class="cardCont">
+                  <div class="topCard">
+                    <div class="cardTitle">סה״כ לידים</div>
+                    <div class="periodListCont">
+                      <select class="pickedPeriod">
+                        <option selected value="today">היום</option>
+                        <option value="week">השבוע</option>
+                        <option value="month">החודש</option>
+                        <option value="year">השנה</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="cardNumCont">
+                    <span class="cardNum">47</span>
+                    <div class="statusNum">
+                      <img src="./assets/images/arrow-trend-up.png" />
+                      <span>12%</span>
+                    </div>
+                  </div>
+                  <div class="statisticsCont">
+                    <div class="statistic">
+                      <div class="circle">
+                        <img
+                          width="10"
+                          height="16"
+                          src="./assets/images/_x30_1._Facebook.png"
+                        />
+                      </div>
+                      <span>26</span>
+                    </div>
+                    <div class="statistic">
+                      <div class="circle">
+                        <img
+                          width="15"
+                          height="17"
+                          src="./assets/images/instagram (1).png"
+                        />
+                      </div>
+                      <span>26</span>
+                    </div>
+                    <div class="statistic">
+                      <div class="circle">
+                        <img
+                          width="13"
+                          height="16"
+                          src="./assets/images/google (1).png"
+                        />
+                      </div>
+                      <span>26</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="cardCont">
+                  <div class="topCard">
+                    <div class="cardTitle">פרוייקטים פעילים</div>
+                    <select class="pickedPeriod">
+                      <option selected value="today">היום</option>
+                      <option value="week">השבוע</option>
+                      <option value="month">החודש</option>
+                      <option value="year">השנה</option>
+                    </select>
+                  </div>
+                  <div class="cardNumCont">
+                    <span class="cardNum">35</span>
+                    <div class="statusNum">
+                      <img src="./assets/images/arrow-trend-up.png" />
+                      <span>25%</span>
+                    </div>
+                  </div>
+                  <div class="statisticsCont">
+                    <div class="statistic">
+                      <div class="circle blueBg">
+                        <img
+                          width="13"
+                          height="15"
+                          src="./assets/images/Proposal.png"
+                        />
+                      </div>
+                      <span>26</span>
+                    </div>
+                    <div class="statistic">
+                      <div class="circle greenBg">
+                        <img
+                          width="13"
+                          height="15"
+                          src="./assets/images/Icon.png"
+                        />
+                      </div>
+                      <span>26</span>
+                    </div>
+                    <div class="statistic">
+                      <div class="circle yellowBg">
+                        <img
+                          width="13"
+                          height="15"
+                          src="./assets/images/Icon-1.png"
+                        />
+                      </div>
+                      <span>26</span>
+                    </div>
+                    <div class="statistic">
+                      <div class="circle redBg">
+                        <img
+                          width="13"
+                          height="16"
+                          src="./assets/images/Icon-2.png"
+                        />
+                      </div>
+                      <span>26</span>
+                    </div>
+                    <div class="statistic">
+                      <div class="circle">
+                        <img
+                          width="13"
+                          height="16"
+                          src="./assets/images/Icon-3.png"
+                        />
+                      </div>
+                      <span>26</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="cardCont">
+                  <div class="topCard">
+                    <div class="cardTitle">הכנסות חודשיות</div>
+                    <div class="periodListCont">
+                      <select class="pickedPeriod">
+                        <option selected value="today">היום</option>
+                        <option value="week">השבוע</option>
+                        <option value="month">החודש</option>
+                        <option value="year">השנה</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="cardNumCont">
+                    <span class="cardNum">56,000₪</span>
+                    <div class="statusNum statusNumRedBg">
+                      <img src="./assets/images/arrow-trend-down.png" />
+                      <span>25%</span>
+                    </div>
+                  </div>
+                  <div class="statisticsCont">
+                    <div class="statistic">
+                      <div class="circle">
+                        <img
+                          width="13"
+                          height="15"
+                          src="./assets/images/Clients.png"
+                        />
+                      </div>
+                      <span>7</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="cardCont">
+                  <div class="topCard">
+                    <div class="cardTitle">תשלומים ממתינים</div>
+                    <div class="periodListCont">
+                      <select class="pickedPeriod">
+                        <option selected value="today">היום</option>
+                        <option value="week">השבוע</option>
+                        <option value="month">החודש</option>
+                        <option value="year">השנה</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="cardNumCont">
+                    <span class="cardNum">127,000₪</span>
+                    <div class="statusNum statusNumRedBg">
+                      <img src="./assets/images/arrow-trend-down.png" />
+                      <span>25%</span>
+                    </div>
+                  </div>
+                  <div class="statisticsCont">
+                    <div class="statistic">
+                      <div class="circle">
+                        <img
+                          width="13"
+                          height="15"
+                          src="./assets/images/Clients.png"
+                        />
+                      </div>
+                      <span>7</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="bodyContentCont">
+              <div class="bodyContentInnerCont">
+                <div class="topBodyContent">
+                  <h3 class="titleBodyContent">צינור עבודה</h3>
+                  <div class="periodListCont">
+                    <select class="pickedPeriod">
+                      <option selected value="today">היום</option>
+                      <option value="week">השבוע</option>
+                      <option value="month">החודש</option>
+                      <option value="year">השנה</option>
+                    </select>
+                  </div>
+                  <div class="periodListCont">
+                    <div class="pickedPeriod">
+                      <span>סינון</span>
+                      <img
+                        width="13"
+                        height="10"
+                        src="./assets/images/bars-filter (4).png"
+                      />
+                    </div>
+                  </div>
+                  <input
+                    class="searchInp pickedPeriod"
+                    placeholder="חיפוש מהיר"
+                  />
+                </div>
+                <div class="barCont">
+                  <img width="1230" src="./assets/images/graphic.png" />
+                </div>
+
+                <div class="table-Cont">
+                  <table class="clientsTable">
+                    <tr class="tableRows">
+                      <td></td>
+                      <td>
+                        <div class="graphBtnCont LeadbtnCon">
+                          <div class="IconTitleBtn leadBtn">
+                            <img width="13" src="./assets/images/Clients.png" />
+                            <span class="leadsTitile">לידים</span>
+                          </div>
+                          <span class="cardNum leadNum">53</span>
+                        </div>
+                      </td>
+
+                      <td>
+                        <div class="graphBtnCont quotationbtnCon">
+                          <div class="IconTitleBtn quotationBtn">
+                            <img width="13" src="./assets/images/Clients.png" />
+                            <span class="leadsTitile">הצעת מחיר</span>
+                          </div>
+                          <span class="cardNum leadNum">17</span>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="graphBtnCont archibtnCon">
+                          <div class="IconTitleBtn archinBtn">
+                            <img width="13" src="./assets/images/Clients.png" />
+                            <span class="leadsTitile">אדריכל </span>
+                          </div>
+                          <span class="cardNum leadNum">28</span>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="graphBtnCont materialbtnCon">
+                          <div class="IconTitleBtn materialBtn">
+                            <img width="13" src="./assets/images/Clients.png" />
+                            <span class="leadsTitile">חומרים </span>
+                          </div>
+                          <span class="cardNum leadNum">75</span>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="graphBtnCont manufbtnCon">
+                          <div class="IconTitleBtn manufacBtn">
+                            <img width="13" src="./assets/images/Clients.png" />
+                            <span class="leadsTitile">מפעל </span>
+                          </div>
+                          <span class="cardNum leadNum">5</span>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="graphBtnCont materialbtnCon">
+                          <div class="IconTitleBtn deliveryBtn">
+                            <img width="13" src="./assets/images/Clients.png" />
+                            <span class="leadsTitile">משלוח </span>
+                          </div>
+                          <span class="cardNum leadNum">32</span>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="tableTitles">
+                      <td>שם לקוח</td>
+                      <td>שלב</td>
+                      <td>סוג פרויקט</td>
+                      <td>גודל</td>
+                      <td>תאריך התחלה</td>
+                      <td>תאריך משוער לסיום</td>
+                      <td>מצב חשבון</td>
+                      <td>טלפון</td>
+                    </tr>
+
+                    <tr class="tableRows">
+                      <td>שרדה ג׳ונסון</td>
+                      <td>הצעת מחיר</td>
+                      <td>וילה</td>
+                      <td>180 מ״ר</td>
+                      <td>15 לינואר 2025</td>
+                      <td>16 לאפריל 2026</td>
+                      <td>-1,500₪</td>
+                      <td>050-1234567</td>
+                    </tr>
+                    <tr class="tableRows">
+                      <td>חברת הייטק בע״מ</td>
+                      <td>הצעת מחיר</td>
+                      <td>וילה</td>
+                      <td>180 מ״ר</td>
+                      <td>15 לינואר 2025</td>
+                      <td>16 לאפריל 2026</td>
+                      <td>-1,500₪</td>
+                      <td>050-1234567</td>
+                    </tr>
+                    <tr class="tableRows">
+                      <td>אתר נופש בהרים</td>
+                      <td>הצעת מחיר</td>
+                      <td>וילה</td>
+                      <td>180 מ״ר</td>
+                      <td>15 לינואר 2025</td>
+                      <td>16 לאפריל 2026</td>
+                      <td>-1,500₪</td>
+                      <td>050-1234567</td>
+                    </tr>
+                    <tr class="tableRows">
+                      <td>חברת הייטק בע״מ</td>
+                      <td>הצעת מחיר</td>
+                      <td>וילה</td>
+                      <td>180 מ״ר</td>
+                      <td>15 לינואר 2025</td>
+                      <td>16 לאפריל 2026</td>
+                      <td>-1,500₪</td>
+                      <td>050-1234567</td>
+                    </tr>
+                    <tr class="tableRows">
+                      <td>חברת הייטק בע״מ</td>
+                      <td>הצעת מחיר</td>
+                      <td>וילה</td>
+                      <td>180 מ״ר</td>
+                      <td>15 לינואר 2025</td>
+                      <td>16 לאפריל 2026</td>
+                      <td>-1,500₪</td>
+                      <td>050-1234567</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- Customers -->
+          <div class="customers">
+            <div class="backbtn">
+              <img src="./assets/images/back.png" />
+              חזרה ללקוחות
+            </div>
+            <div class="topDashboard">
+              <div class="TitleDashboard_Cont">
+                <h1 class="TitleDashboard">שרה ג׳ונסון</h1>
+              </div>
+              <div class="notificationDashboard_Cont">
+                <div class="notificationDashboad">
+                  <img
+                    class="notifImg"
+                    width="20"
+                    height="20"
+                    src="./assets/images/bell-notification-social-media (3).png"
+                  />
+                  <div class="square"><span>3</span></div>
+                  <div class="notifName">התראות</div>
+                  <img
+                    class="arrow"
+                    width="14px"
+                    src="./assets/images/caret-up-white.png"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="CustomerPageBtns">
+              <div class="customerBtn customerBtnPicked">
+                <img width="12" src="./assets/images/Proposal_green.png" />
+                הצעות מחיר
+              </div>
+              <div class="customerBtn">
+                <img width="18" src="./assets/images/Icon_white.png" />
+                תכנון אדריכלי
+              </div>
+              <div class="customerBtn">
+                <img width="18" src="./assets/images/Icon_white.png" />
+                בחירת חומרים
+              </div>
+              <div class="customerBtn">
+                <img width="18" src="./assets/images/Icon_white.png" />
+                מפעל
+              </div>
+              <div class="customerBtn">
+                <img width="18" src="./assets/images/Icon_white.png" />
+                הובלה והתקנה
+              </div>
+              <div class="customerBtn">
+                <img width="18" src="./assets/images/Icon_white.png" />
+                בקרת איכות
+              </div>
+              <div class="customerBtn">
+                <img width="18" src="./assets/images/Icon_white.png" />
+                תיקונים וסגירה
+              </div>
+            </div>
+
+            <!-- <div class="customerContent">
+              <div class="firstContent">
+                <div class="rightSide">
+                  <h5 class="title_customerPage">מפרט ראשוני</h5>
+                  <div class="topSpecifBegin">
+                    <div class="customerBtn customerBtnSize">
+                      <span>גודל המבנה</span>
+                    </div>
+                    <span> מ"ר</span>
+                    <div class="customerBtn customerBtnSize">
+                      <span> סוג מבנה</span>
+                      <img src="./assets/images/caret-up.png" />
+                    </div>
+                    <div class="topSpecifBegin">
+                      <input class="pickCheckBox" type="checkbox" />
+                      <span>קיים היתר בנייה</span>
+                    </div>
+                  </div>
+
+                  <div class="costCont">
+                    <div class="costInner">
+                      <span class="costInnerTxt costInnerTxtHelp"
+                        >מחיר בסיס</span
+                      >
+                    </div>
+                    <div class="costNum">
+                      <span class="costNumF">₪450,000</span>
+                      <span class="costNumS">מבנה סטנדרטי</span>
+                    </div>
+                  </div>
+
+                  <div class="ax">
+                    <div class="costInner goLeft">
+                      <span class="costInnerTxt"> תוספות ושדרוגים</span>
+                    </div>
+                  </div>
+
+                  <div class="ax">
+                    <div class="topSpecifBegin goBottom">
+                      <input class="pickCheckBox" type="checkbox" />
+                      <span class="imprName"
+                        >בדידו משופר
+                        <br />
+                        <span class="miniText"> בידוד תרמי ואקוסטי מתקדם</span>
+                      </span>
+                      <div class="improNum">25,000₪+</div>
+                    </div>
+                    <div class="topSpecifBegin goBottom goBottomExtra">
+                      <input class="pickCheckBox" type="checkbox" />
+                      <span class="imprName"
+                        >בדידו משופר
+                        <br />
+                        <span class="miniText"> בידוד תרמי ואקוסטי מתקדם</span>
+                      </span>
+                      <div class="improNum">25,000₪+</div>
+                    </div>
+                    <div
+                      class="topSpecifBegin goBottom goBottomExtra goBottomExtra2"
+                    >
+                      <input class="pickCheckBox" type="checkbox" />
+                      <span class="imprName"
+                        >בדידו משופר
+                        <br />
+                        <span class="miniText"> בידוד תרמי ואקוסטי מתקדם</span>
+                      </span>
+                      <div class="improNum">25,000₪+</div>
+                    </div>
+                    <div
+                      class="topSpecifBegin goBottom goBottomExtra goBottomExtra3"
+                    >
+                      <input class="pickCheckBox" type="checkbox" />
+                      <span class="imprName"
+                        >בדידו משופר
+                        <br />
+                        <span class="miniText"> בידוד תרמי ואקוסטי מתקדם</span>
+                      </span>
+                      <div class="improNum">25,000₪+</div>
+                    </div>
+                    <div
+                      class="topSpecifBegin goBottom goBottomExtra goBottomExtra4"
+                    >
+                      <input class="pickCheckBox" type="checkbox" />
+                      <span class="imprName"
+                        >בדידו משופר
+                        <br />
+                        <span class="miniText"> בידוד תרמי ואקוסטי מתקדם</span>
+                      </span>
+                      <div class="improNum">25,000₪+</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="leftSide">
+                  <div class="summarizeMoney">
+                    <div class="topSumMoney">
+                      <h5 class="title_customerPage">סיכום מחיר</h5>
+                      <div class="circle circleRight">
+                        <img src="./assets/images/comments (1).png" />
+                      </div>
+                    </div>
+                    <div class="sumMoneyContent">
+                      <div class="baseCostCont">
+                        <div class="titleBaseCost">מחיר בסיס</div>
+                        <div class="BaseCost">450,000₪</div>
+                      </div>
+                      <hr class="priceLine" />
+                      <div class="baseCostCont">
+                        <div class="titleBaseCost">מחיר בסיס</div>
+                        <div class="BaseCost BaseCostGreen">450,000₪</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="checkList">
+                    <div class="topSumMoney">
+                      <h5 class="title_customerPage">צ׳קליסט</h5>
+                      <div class="circle circleRight">
+                        <img src="./assets/images/comments (1).png" />
+                      </div>
+                    </div>
+
+                    <div class="checklistBody">
+                      <div class="topSpecifBegin">
+                        <input class="pickCheckBox" type="checkbox" />
+                        <span class="smTxt">נשלחה הצעת מחיר </span>
+                      </div>
+                      <div class="topSpecifBegin checkboxCont">
+                        <input class="pickCheckBox" type="checkbox" />
+                        <span class="smTxt"> קיבלנו תגובה</span>
+                      </div>
+                      <div class="topSpecifBegin checkboxCont">
+                        <input class="pickCheckBox" type="checkbox" />
+                        <span class="smTxt"> אישור לקוח</span>
+                      </div>
+
+                      <div class="checkListBtn">
+                        המשך לבחירת מסלול (עם או בלי אדריכל)
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="aa"></div>
+              </div>
+            </div> -->
+
+            <!-- architecture plan -->
+            <div class="customerContent">
+              <div class="firstContent">
+                <div class="rightSide">
+                  <h5 class="title_customerPage">תהליך התכנון</h5>
+                  <div class="imgUplaodCont">
+                    <div class="uploadCont">
+                      <img
+                        class="uploadImg"
+                        width="28"
+                        src="./assets/images/upload (3).png"
+                      />
+                      <div class="uploadTxt">
+                        לחץ להעלאת קבצים או גרור לכאן<br />
+                        PDF, DWG, PNG עד 10MB
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ax">
+                    <div class="costInner goLeft">
+                      <span class="costInnerTxt"> גרסאות תוכניות</span>
+                    </div>
+                  </div>
+                  <div class="versionsCont">
+                    <div class="versionContentCont">
+                      <div class="versionCont">
+                        <div class="circlePurple">
+                          <img
+                            class="docImg"
+                            src="./assets/images/document (12).png"
+                          />
+                        </div>
+                        <div class="verTxtCont">
+                          <div class="verTxt">גרסה 1.0 - סקיצה ראשונית</div>
+                          <div class="verMiniTxt">
+                            חוזה • 2.4 MB • 8/15/2024
+                          </div>
+                        </div>
+                        <img
+                          class="downloadImg"
+                          src="./assets/images/download (3).png"
+                        />
+                      </div>
+                      <div class="circle circleRight">
+                        <img src="./assets/images/comments (1).png" />
+                      </div>
+                    </div>
+                    <div class="versionContentCont">
+                      <div class="versionCont">
+                        <div class="circlePurple">
+                          <img
+                            class="docImg"
+                            src="./assets/images/document (12).png"
+                          />
+                        </div>
+                        <div class="verTxtCont">
+                          <div class="verTxt">גרסה 1.0 - סקיצה ראשונית</div>
+                          <div class="verMiniTxt">
+                            חוזה • 2.4 MB • 8/15/2024
+                          </div>
+                        </div>
+                        <img
+                          class="downloadImg"
+                          src="./assets/images/download (3).png"
+                        />
+                      </div>
+                      <div class="circle circleRight">
+                        <img src="./assets/images/comments (1).png" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="leftSide">
+                  <div class="summarizeMoney">
+                    <div class="topSumMoney">
+                      <h5 class="title_customerPage">
+                        הערות ותקשורת עם אדריכל
+                      </h5>
+                      <button class="IconAndTextBg buttonEdit1">
+                        <img width="14" src="./assets/images/edit (2).png" />
+                        <span>הוסף הערה</span>
+                      </button>
+                      <div class="circle circleRight">
+                        <img src="./assets/images/comments (1).png" />
+                      </div>
+                    </div>
+                    <div class="sumMoneyContent archiNote">
+                      <div class="baseNoteCont">
+                        <div class="titleBaseCost">
+                          <div class="rowLine">
+                            <img
+                              width="25"
+                              src="./assets/images/Ellipse 1.png"
+                            />
+                            <div class="txtAvatar">
+                              <span class="boldTxt">אלקנה כהן</span>
+                              <br />
+                              <span class="smTxt">נשלחה הצעת מחיר </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="topNote rowLine">
+                          <div class="circle">
+                            <img src="./assets/images/comments (1).png" />
+                          </div>
+                          <div class="checkDone">סמן כ״בוצע״</div>
+                          <div class="specTxt">25 אוקטובר 2025</div>
+                          <img src="./assets/images/menu-dots (1).png" />
+                        </div>
+                      </div>
+                      <div class="noteTxt">
+                        הלקוח ביקש שדרוג לגימור מטבח פרימיום. נשלחה התאמת הצעת
+                        מחיר.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="checkList">
+                    <div class="topSumMoney">
+                      <h5 class="title_customerPage">צ׳קליסט</h5>
+                      <div class="circle circleRight">
+                        <img src="./assets/images/comments (1).png" />
+                      </div>
+                    </div>
+
+                    <div class="checklistBody">
+                      <div class="topSpecifBegin">
+                        <input class="pickCheckBox" type="checkbox" />
+                        <span class="smTxt">נשלחה הצעת מחיר </span>
+                      </div>
+                      <div class="topSpecifBegin checkboxCont">
+                        <input class="pickCheckBox" type="checkbox" />
+                        <span class="smTxt"> קיבלנו תגובה</span>
+                      </div>
+                      <div class="topSpecifBegin checkboxCont">
+                        <input class="pickCheckBox" type="checkbox" />
+                        <span class="smTxt"> אישור לקוח</span>
+                      </div>
+
+                      <div class="checkListBtn">
+                        המשך לבחירת מסלול (עם או בלי אדריכל)
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="aa"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Lead Popup -->
+          <!-- <div class="leadPopup">
+            <div class="leadPopupCont">
+              <div class="topLeadPopupCont">
+                <h2 class="TitleTxt">שרה ג׳ונסון</h2>
+                <button class="IconAndTextBg">
+                  <img width="12" src="./assets/images/phone-flip (6).png" />
+                  <span>התקשר</span>
+                </button>
+                <button class="IconAndTextBorder">
+                  <img width="13" src="./assets/images/WA_Logo.png" />
+                  <span> שלח הודעה </span>
+                </button>
+              </div>
+              <div class="nowProcess">
+                <span>שלב נוכחי: </span>
+                <div class="as">
+                  <img width="12" src="./assets/images/Proposal_green.png" />
+                  <span>הצעת מחיר</span>
+                </div>
+              </div>
+              <div class="rowLine process">
+                <span>התקדמות</span>
+                <img width="200" src="./assets/images/process-bar.png" />
+              </div>
+
+              <div class="rowLine navBtnsCont">
+                <span>סקירה כללית</span>
+                <span>קבצים</span>
+                <span class="pickedInLeadPopup">משימות</span>
+                <span>תשלומים</span>
+                <span>הערות</span>
+              </div>
+
+              <div class="topBodyLeadPopupCont">
+                <div class="rowLine topBodyLeadPopup">
+                  <img width="15" src="/assets/images/note (2).png" />
+                  <span>משימות</span>
+                  <div class="periodListCont">
+                    <div class="pickedPeriod">
+                      <span>סינון</span>
+                      <img
+                        width="13"
+                        height="10"
+                        src="./assets/images/bars-filter (4).png"
+                      />
+                    </div>
+                  </div>
+                  <input
+                    class="searchInp pickedPeriod searchInpLeadPopUp"
+                    placeholder="חיפוש מהיר"
+                  />
+                  <button class="IconAndTextBg smFont">
+                    <img width="9" src="./assets/images/plus-small (12).png" />
+                    <span>משימה חדשה</span>
+                  </button>
+                </div>
+                <div class="tasksCont">
+                  <div class="rowLine tasksLeadPopup">
+                    <input class="pickCheckBox" type="checkbox" />
+                    <span class="imprName">
+                      אישור בחירות חומרים
+                      <br />
+                      <div class="rowLine gapTen">
+                        <span class="miniText rowLine gapTen">
+                          <img src="/assets/images/Ellipse 187.png" />
+                          דני אלקנה
+                        </span>
+                        <img src="/assets/images/Ellipse 188.png" />
+                        <span class="miniText"> סיום : 27 אוקטובר 2025</span>
+                        <img src="/assets/images/Ellipse 188.png" />
+                        <button class="IconAndTextBg missionType">
+                          <img width="13" src="./assets/images/Icon-yel.png" />
+                          <span> חומרים</span>
+                        </button>
+                      </div>
+                    </span>
+                  </div>
+                  <div class="rowLine tasksLeadPopup">
+                    <input class="pickCheckBox" type="checkbox" />
+                    <span class="imprName">
+                      אישור אבן דרך בייצור במפעל <br />
+                      <div class="rowLine gapTen">
+                        <span class="miniText rowLine gapTen">
+                          <img src="/assets/images/Ellipse 187.png" />
+                          דני אלקנה
+                        </span>
+                        <img src="/assets/images/Ellipse 188.png" />
+                        <span class="miniText"> סיום : 27 אוקטובר 2025</span>
+                        <img src="/assets/images/Ellipse 188.png" />
+                        <button class="IconAndTextBg missionType redBg redTxt">
+                          <img
+                            width="13"
+                            src="./assets/images/Icon-2-red.png"
+                          />
+                          <span> מפעל</span>
+                        </button>
+                      </div>
+                    </span>
+                  </div>
+                  <div class="rowLine tasksLeadPopup">
+                    <input class="pickCheckBox" type="checkbox" />
+                    <span class="imprName">
+                      סקירת תוכניות סופיות של האדריכל <br />
+                      <div class="rowLine gapTen">
+                        <span class="miniText rowLine gapTen">
+                          <img src="/assets/images/Ellipse 187.png" />
+                          דני אלקנה
+                        </span>
+                        <img src="/assets/images/Ellipse 188.png" />
+                        <span class="miniText"> סיום : 27 אוקטובר 2025</span>
+                        <img src="/assets/images/Ellipse 188.png" />
+                        <button
+                          class="IconAndTextBg missionType greenBg greenTxt"
+                        >
+                          <img
+                            width="13"
+                            src="./assets/images/Icon-green.png"
+                          />
+                          <span> אדריכל</span>
+                        </button>
+                      </div>
+                    </span>
+                  </div>
+                  <div class="rowLine tasksLeadPopup tasksLeadPopupDone">
+                    <input class="pickCheckBox" type="checkbox" checked />
+                    <span class="imprName">
+                      <span class="missionDone"> אישור סקיצות ראשוניות </span>
+                      <br />
+                      <div class="rowLine gapTen">
+                        <span class="miniText rowLine gapTen">
+                          <img src="/assets/images/Ellipse 187.png" />
+                          דני אלקנה
+                        </span>
+                        <img src="/assets/images/Ellipse 188.png" />
+                        <span class="miniText"> סיום : 27 אוקטובר 2025</span>
+                        <img src="/assets/images/Ellipse 188.png" />
+                        <button
+                          class="IconAndTextBg missionType greenBg greenTxt"
+                        >
+                          <img
+                            width="13"
+                            src="./assets/images/Icon-green.png"
+                          />
+                          <span> אדריכל</span>
+                        </button>
+                      </div>
+                    </span>
+                  </div>
+                  <div class="rowLine tasksLeadPopup tasksLeadPopupDone">
+                    <input class="pickCheckBox" type="checkbox" checked />
+                    <span class="imprName">
+                      <span class="missionDone"
+                        >סקירת תוכניות סופיות של האדריכל</span
+                      >
+                      <br />
+                      <div class="rowLine gapTen">
+                        <span class="miniText rowLine gapTen">
+                          <img src="/assets/images/Ellipse 187.png" />
+                          דני אלקנה
+                        </span>
+                        <img src="/assets/images/Ellipse 188.png" />
+                        <span class="miniText"> סיום : 27 אוקטובר 2025</span>
+                        <img src="/assets/images/Ellipse 188.png" />
+                        <button class="IconAndTextBg missionType">
+                          <img width="13" src="./assets/images/Icon-yel.png" />
+                          <span> חומרים</span>
+                        </button>
+                      </div>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

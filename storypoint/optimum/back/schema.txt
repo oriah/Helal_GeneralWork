@@ -1,0 +1,62 @@
+CREATE TABLE `ridosoft_optimum`.`buildings` (
+  `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NOT NULL,
+  `city` VARCHAR(45) NULL,
+  `street` VARCHAR(45) NULL,
+  `apartment_num` VARCHAR(45) NULL,
+  `floor_num` INT NULL,
+  `entries_num` INT NULL,
+  `bank_name` VARCHAR(45) NULL,
+  `bank_branch_num` INT NULL,
+  `bank_account_num` INT NULL,
+  `bank_type` VARCHAR(45) NULL,
+  `userCode` VARCHAR(45) NULL,
+  `pass` VARCHAR(45) NULL,
+  `contactInfo1_startTime` VARCHAR(45) NULL,
+  `contactInfo1_fileContract` VARCHAR(45) NULL,
+  `buildingscol` VARCHAR(45) NULL,
+  `insuranceAgency` VARCHAR(45) NULL,
+  `insuranceCompany` VARCHAR(45) NULL,
+  `insuranceCompany2` VARCHAR(45) NULL,
+  `insuranceEndDate` VARCHAR(45) NULL,
+  `insurancePolicyDocument` VARCHAR(45) NULL,
+  `codeEntry1` VARCHAR(45) NULL,
+  `codeEntry2` VARCHAR(45) NULL,
+  `codeRooftopEntry` VARCHAR(45) NULL,
+  `whatsapp` VARCHAR(45) NULL,
+  `email` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE INDEX `id_UNIQUE` (`id` ASC) VISIBLE);
+
+
+
+// Insert
+
+INSERT INTO `ridosoft_optimum`.`buildings` 
+(`name`, `city`, `street`, `apartment_num`, `floor_num`, `entries_num`, 
+ `bank_name`, `bank_branch_num`, `bank_account_num`, `bank_type`, 
+ `userCode`, `pass`, `contactInfo1_startTime`, `contactInfo1_fileContract`, 
+ `buildingscol`, `insuranceAgency`, `insuranceCompany`, `insuranceCompany2`, 
+ `insuranceEndDate`, `insurancePolicyDocument`, `codeEntry1`, `codeEntry2`, 
+ `codeRooftopEntry`, `whatsapp`, `email`)
+VALUES
+('גפן 9 חריש', 'חריש', 'גפן', '9', 7, 3,
+ 'בנק לאומי', 593, 100835, 'חיסכון',
+ 'shayop2024', '12345', '27/08/25', 'חוזה_גפן9.pdf',
+ 'בניין מגורים פעיל', 'סוכנות אלון ביטוחים', 'הראל', 'מגדל',
+ '27/08/27', 'פוליסה_הראל.pdf', '2708', '2222', 'גג 9876',
+ '0543596768', 'info@gefen9.co.il'),
+
+('פרחי אביב 12 תל אביב', 'תל אביב', 'פרחי אביב', '12', 5, 2,
+ 'בנק הפועלים', 567, 654321, 'שוטף',
+ 'avivuser', '78910', '01/01/25', 'חוזה_אביב12.pdf',
+ 'בניין יוקרה', 'סוכנות גולן ביטוחים', 'כלל', 'הראל',
+ '01/01/28', 'פוליסה_כלל.pdf', '1111', '2222', '3333',
+ '0501234567', 'contact@aviv12.co.il'),
+
+('הרימון 3 חיפה', 'חיפה', 'הרימון', '3', 9, 4,
+ 'בנק דיסקונט', 345, 876543, 'פיקדון',
+ 'rimonUser', 'rimon2025', '12/05/25', 'חוזה_הרימון3.pdf',
+ 'בניין קהילתי', 'שמעוני ביטוחים', 'הפניקס', 'מגדל',
+ '12/05/27', 'פוליסה_הפניקס.pdf', '4444', '5555', '6666',
+ '0527654321', 'admin@rimon3.co.il');

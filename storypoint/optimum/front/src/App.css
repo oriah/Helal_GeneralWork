@@ -1,0 +1,12 @@
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+@media only screen and (max-width: 420px) {
+  .right-menu-container {
+    visibility: hidden;
+  }
+  .hero-top-container {
+    flex: 10 0 33.3333%;
+  }
+}
